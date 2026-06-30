@@ -1,0 +1,43 @@
+#NEXUS
+[R-package APE, Thu May  7 11:15:36 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 15;
+	TAXLABELS
+		Oxymycterus_nigrifrons
+		Oxymycterus_juliacae
+		Oxymycterus_hiska
+		Oxymycterus_paramensis
+		Oxymycterus_rufus
+		Oxymycterus_josei
+		Oxymycterus_inca
+		Oxymycterus_quaestor
+		Oxymycterus_nasutus
+		Oxymycterus_caparaoe
+		Oxymycterus_dasytrichus
+		Oxymycterus_amazonicus
+		Oxymycterus_delator
+		Oxymycterus_itapeby
+		Juscelinomys_huanchacae
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Oxymycterus_nigrifrons,
+		2	Oxymycterus_juliacae,
+		3	Oxymycterus_hiska,
+		4	Oxymycterus_paramensis,
+		5	Oxymycterus_rufus,
+		6	Oxymycterus_josei,
+		7	Oxymycterus_inca,
+		8	Oxymycterus_quaestor,
+		9	Oxymycterus_nasutus,
+		10	Oxymycterus_caparaoe,
+		11	Oxymycterus_dasytrichus,
+		12	Oxymycterus_amazonicus,
+		13	Oxymycterus_delator,
+		14	Oxymycterus_itapeby,
+		15	Juscelinomys_huanchacae
+	;
+	TREE * UNTITLED = [&R] ((((((((1:0.102354,2:0.102354):0.850504,3:0.952858):0.034193,4:0.987051):0.125208,(((5:0.200239,6:0.200239):0.319962,7:0.520201):0.452034,8:0.972235):0.140024):0.1696565,(9:0.529382,10:0.529382):0.7525335):0.1494764,11:1.4313919):0.1886086606,((12:0.578371,13:0.578371):0.474661,14:1.053032):0.5669685606):1.059999975,15:2.680000536);
+END;
